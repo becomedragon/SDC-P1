@@ -16,22 +16,29 @@ My pipeline consisted of 6 steps. First, I converted the images to `grayscale`, 
 In order to draw a single line on the left and right lanes, I modified the draw\_lines() function by thickness = 10.
 
 If you'd like to include images to show how the pipeline works, here is show how the image change step by step:
+
 *Gray:*
+
 <img src="write_img/grayed.jpeg" width="480" alt="Combined Image" />
 
 *Gaussian*
+
 <img src="write_img/gaussian.jpeg" width="480" alt="Combined Image" />
 
 *Edged（Canny）*
+
 <img src="write_img/edged.jpeg" width="480" alt="Combined Image" />
 
 *Mask*
+
 <img src="write_img/masked.jpeg" width="480" alt="Combined Image" />
 
 *Hough*
+
 <img src="write_img/lined.jpeg" width="480" alt="Combined Image" />
 
 *Merge*
+
 <img src="write_img/weighted.jpeg" width="480" alt="Combined Image" />
 
 
