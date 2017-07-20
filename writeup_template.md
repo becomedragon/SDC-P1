@@ -1,7 +1,8 @@
 # **Finding Lane Lines on the Road**
 
 **Finding Lane Lines on the Road**
-
+The Writeup
+---
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
@@ -19,18 +20,25 @@ In order to draw a single line on the left and right lanes, I modified the draw\
 
 If you'd like to include images to show how the pipeline works, here is show how the image change step by step:
 *Gray:*
-![]()
-*Gaussian*
-![]()
-*Edged（Canny）*
-![]()
-*Mask*
-![]()
-*Hough*
-![]()
-*Merge*
-![]()
+<img src="write_img/grayed.jpeg" width="480" alt="Combined Image" />
 
+*Gaussian*
+<img src="write_img/gaussian.jpeg" width="480" alt="Combined Image" />
+
+*Edged（Canny）*
+<img src="write_img/edged.jpeg" width="480" alt="Combined Image" />
+
+*Mask*
+<img src="write_img/masked.jpeg" width="480" alt="Combined Image" />
+
+*Hough*
+<img src="write_img/lined.jpeg" width="480" alt="Combined Image" />
+
+*Merge*
+<img src="write_img/weighted.jpeg" width="480" alt="Combined Image" />
+
+
+---
 
 ### 2. Identify potential shortcomings with your current pipeline
 
@@ -38,4 +46,7 @@ One potential shortcoming would be what would happen when Lane Lines is curved o
 
 ### 3. Suggest possible improvements to your pipeline
 According to the algorithms I learned  now, I have no idea how to big improve the pipeline, or maybe I have not understand these algorithms totally.  
+
+
+
 
