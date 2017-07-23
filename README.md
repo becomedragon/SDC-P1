@@ -52,18 +52,21 @@ One potential shortcoming would be what would happen when Lane Lines is curved o
 According to the algorithms I learned  now, I have no idea how to big improve the pipeline, or maybe I have not understand these algorithms totally.  
 
 
-###Why we need hough space and how hough space find lines?
+### Why we need hough space and how hough space find lines?
+
 Hough space can map image line to a point and vise verse.
 y = mx + b  line  in image space, map to (m, b) in hough space.
 how to use is it to find line? 
+
 
 when we convert a normal image to a edged image, if we zoom out it , we will see that the image consist by many points, our purpose is link these points to a line, we try different slope of lines to connect some points of all, and if the points number and points distance meet thresholds that we define , point (m, b) will be mapped into hough space.
 
 Through many iteration of the operation above ,there have some points in the hough space, now we use these (m, b) points the draw the lines in the image.
 
-*here is question, how to get line length ? *
+*here is question, how to get line length?*
 
 blow is the definition of hough function:
+
 	''rho = 2 # distance resolution in pixels of the Hough grid
 	''theta = np.pi/180 # angular resolution in radians of the Hough grid
 	''threshold = 35     # minimum number of votes (intersections in Hough grid cell)
