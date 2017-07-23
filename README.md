@@ -63,6 +63,10 @@ when we convert a normal image to a edged image, if we zoom out it , we will see
 
 Through many iteration of the operation above ,there have some points in the hough space, now we use these (m, b) points the draw the lines in the image.
 
+
+<img src="write_img/houghlinesdemo.gif" width="480" alt="Combined Image" />
+
+
 *here is question, how to get line length?*
 
 blow is the definition of hough function:
